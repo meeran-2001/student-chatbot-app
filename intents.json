@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "Good morning", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What do you need help with?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["Tell me about the courses", "What courses are offered?", "Course list", "Subjects"],
+      "responses": ["You can choose from BCA, MCA, BBA, MBA, and more. What are you interested in?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply?", "Admission process", "How do I get in?", "Enroll"],
+      "responses": ["Visit our official website and go to the Admissions section. Fill out the form online."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "Tuition fees", "Fees for BCA", "Semester fees"],
+      "responses": ["Fee structure depends on the course. BCA is around ₹60,000 per year."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Is hostel available?", "Tell me about hostel", "Hostel fees", "Accommodation"],
+      "responses": ["Yes, hostel facilities are available with separate wings for boys and girls."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "Can you assist me?", "Help me", "What can you do?"],
+      "responses": ["Sure! I can assist with course info, fees, admissions, and general queries."]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": ["I'm feeling low", "I'm stressed", "Can you help me mentally?", "I feel anxious"],
+      "responses": ["You're not alone. It's okay to feel this way. Would you like some tips or professional contacts?"]
+    }
+  ]
+}
